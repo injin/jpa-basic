@@ -1,4 +1,4 @@
-package valueType;
+package objectOrientedQueryBasic;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

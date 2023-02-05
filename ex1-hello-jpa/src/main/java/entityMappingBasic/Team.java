@@ -1,4 +1,4 @@
-package EntityMappingBasic;
+package entityMappingBasic;
 
 import javax.persistence.*;
 import java.util.ArrayList;

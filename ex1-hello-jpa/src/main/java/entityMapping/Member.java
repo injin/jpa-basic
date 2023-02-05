@@ -1,4 +1,4 @@
-package EntityMapping;
+package entityMapping;
 
 import javax.persistence.*;
 import java.util.Date;

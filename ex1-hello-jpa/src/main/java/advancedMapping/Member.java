@@ -1,7 +1,6 @@
-package AdvancedMapping;
+package advancedMapping;
 
 import javax.persistence.*;
-import java.time.LocalDateTime;
 
 @Entity
 

@@ -1,4 +1,4 @@
-package AdvancedMapping;
+package advancedMapping;
 
 import javax.persistence.*;
 

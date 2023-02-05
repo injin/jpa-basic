@@ -1,8 +1,8 @@
 ### 강의-소스 매핑
 1) JPA 시작하기 : ex1-hello-jpa프로젝트/hellojpa
-2) 엔티티 매핑 : ex1-hello-jpa프로젝트/EntityMapping
+2) 엔티티 매핑 : ex1-hello-jpa프로젝트/entityMapping
 3) 연관관계 매핑 기초
-- ex1-hello-jpa프로젝트/EntityMappingBasic
+- ex1-hello-jpa프로젝트/entityMappingBasic
 - jpashop프로젝트
 
 4) 다양한 연관관계 매핑
@@ -10,13 +10,14 @@
 - jpashop프로젝트
 
 5) 고급매핑
-- ex1-hello-jpa프로젝트/AdvancedMapping
+- ex1-hello-jpa프로젝트/advancedMapping
 
 6) 프록시와 연관관계 관리
 - ex1-hello-jpa프로젝트/hellojpa
 - cascade와 고아객체 : ex1-hello-jpa프로젝트/cascade
 
-
+7) 값 타입
+- ex1-hello-jpa프로젝트/valueType
 
 ### 소스 실행 방법
 * ex1-hello-jpa 프로젝트는 동일 이름 엔티티 오류가 발생하므로 구동할 패키지만 남기고 나머지 임시로 옮기기

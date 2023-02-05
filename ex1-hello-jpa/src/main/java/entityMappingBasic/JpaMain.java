@@ -1,6 +1,4 @@
-package EntityMappingBasic;
-
-import EntityMappingBasic.Member;
+package entityMappingBasic;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

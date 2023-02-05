@@ -1,4 +1,4 @@
-package EntityMapping;
+package entityMapping;
 
 enum RoleType {
     USER, ADMIN;

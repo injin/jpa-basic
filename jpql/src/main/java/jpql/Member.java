@@ -3,6 +3,10 @@ package jpql;
 import javax.persistence.*;
 
 @Entity
+@NamedQuery(
+        name = "Member.findUsername",
+        query = "select m from Member m where m.username = :username"
+)
 public class Member {
 
     @Id @GeneratedValue
@@ -10,7 +14,7 @@ public class Member {
     private String username;
     private int age;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "TEAM_ID")
     private Team team;
 
@@ -55,5 +59,15 @@ public class Member {
 
     public void setType(UserType type) {
         this.type = type;
+    }
+
+    @Override
+    public String toString() {
+        return "Member{" +
+                "id=" + getId() +
+                ", username='" + getUsername() + '\'' +
+                ", age=" + getAge() +
+                ", type=" + getType() +
+                '}';
     }
 }
